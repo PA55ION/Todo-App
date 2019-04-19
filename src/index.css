@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 30vh;
+    min-width: 30vw;
+    width: auto;
+    height: auto;
+    margin-top: 10vh;
+    text-align: center;
+    border-radius: 5%;
+}
+
+ .fa-gradient {
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#333)); */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.add {
+   font-size: 55px;
+   position: relative;
+   left: -10px;
+   top: 9px;
+   border: none;
+   padding: 0;
+   background: none;
+   cursor: pointer;
+
+ }
+
+ .remove {
+     /* position: relative; */
+     border: none;
+     background: none;
+     padding: 0;
+     margin-bottom: 10px;
+     margin-top: -10px;
+     font-size: 35px;
+     float: right;
+     cursor: pointer;
+ }
+
+ form {
+     max-width: 25em;
+     margin: 4em auto;
+     position: relative;
+     background: #f4f4f4;
+     padding: 2em 3em;  
+
+ }
+
+ input[type=text] {
+     width: 225px;
+     height: 30px;
+     font-size: 14px;
+ }
+
+ input[type=text]::placeholder {
+    font-family: "Raleway";
+    color:#666; 
+ }
+
+ form li{
+    background: #fff;
+    border-left: 4px solid #8A2387;
+    padding: 1em;
+    margin: 1em auto;
+    color: #666;
+    font-family: "Raleway";
+    list-style-type: none;
+    cursor: pointer;
+    max-width: 25em;      
+ 
+   }
+
+   h1 {
+       text-transform: uppercase;
+       font-family: "Raleway";
+       font-size: 45px;
+   }
+   
