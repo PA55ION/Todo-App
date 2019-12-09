@@ -7,16 +7,13 @@ class App extends React.Component {
     constructor(props) {
       super(props)
       this.state = { items: [], text: '' };
-
       this.deleteItem = this.deleteItem.bind(this)
   }
 
   handleChange = (event) => {
     this.setState ({
       text: event.target.value
-
     })
-   
   }
 
   handleSubmit = (event) => {
@@ -41,7 +38,6 @@ class App extends React.Component {
     this.setState(prevState => ({
       items: prevState.items.filter(item => item.id !== id)
     }));
-
   }
 
   render() {
